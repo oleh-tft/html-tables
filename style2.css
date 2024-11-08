@@ -1,0 +1,45 @@
+table {
+    border-collapse: collapse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    text-align: center;
+}
+#specification {
+    background-color: rgb(225, 225, 225);
+    color: gray;
+    text-align: left;
+    width: 220px;
+}
+#free {
+    background-color: rgb(30, 214, 216);
+}
+#basic {
+    background-color: rgb(149, 199, 84);
+}
+#standart {
+    background-color: rgb(253, 207, 49);
+}
+#premium {
+    background-color: rgb(245, 77, 64);
+}
+.gr {
+    color: gray;
+}
+td {
+    padding: 8px;
+    width: 120px;
+}
+thead {
+    text-transform: uppercase;
+    height: 50px;
+    font-weight: bold;
+}
+tfoot {
+    height: 50px;
+    font-weight: bold;
+}
+#top-row {
+    border: solid;
+    border-width: 1px 0;
+    border-color: white;
+}

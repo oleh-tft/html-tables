@@ -1,0 +1,67 @@
+table {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+}
+tr {
+    background: rgb(220, 220, 220);
+    height: 34px;
+}
+tr td {
+    background: rgb(231, 231, 231);
+}
+.td-odd {
+    background: rgb(220, 220, 220);
+}
+.td-even {
+    background: rgb(243, 243, 243);
+}
+.first-col {
+    width: 220px;
+    text-align: left;
+    padding-left: 20px;
+}
+.col {
+    width: 140px;
+}
+th {
+    height: 100px;
+}
+.plan {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.plan-name {
+    margin-bottom: 16px;
+}
+.plan-price {
+    font-size: 30px;
+}
+#th-1 {
+    background-color: rgb(121, 135, 172);
+}
+#th-2 {
+    background-color: rgb(79, 98, 141);
+}
+#th-3 {
+    background-color: rgb(47, 65, 115);
+}
+#th-4 {
+    background-color: rgb(22, 41, 84);
+}
+#th-5 {
+    background-color: rgb(7, 21, 58);
+}
+#button-row {
+    height: 60px;
+}
+a {
+    background-color: rgb(211, 211, 211);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    border: 1px solid gray;
+    padding: 8px 26px 8px 26px;
+    width: 80px;
+}
