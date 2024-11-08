@@ -1,0 +1,46 @@
+table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: 1px solid gray;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+#aspect-row {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#aspect {
+    background-color: rgb(255, 240, 162);
+}
+#simple {
+    background-color: rgb(208, 209, 255);
+}
+#prog {
+    background-color: rgb(254, 194, 194);
+}
+#perf {
+    background-color: rgb(178, 255, 209);
+}
+#perfprog {
+    background-color: rgb(255, 193, 254);
+}
+.it {
+    font-style: italic;
+}
+.quest {
+    font-weight: bold;
+    text-align: center;
+}
+.period {
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+}
+td span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
